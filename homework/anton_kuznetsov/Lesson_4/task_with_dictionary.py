@@ -12,7 +12,7 @@ my_dict['list'].append(88888888)
 my_dict['list'].pop(1)
 
 # 3 задание
-my_dict['dict']['i am a tuple'] = 'additional description'
+my_dict['dict'][('i am a tuple',)] = 'additional description'
 my_dict['dict'].pop(5)
 
 # 4 задание
