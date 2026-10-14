@@ -13,5 +13,5 @@ def pars_data(*args):
             num = int(argument[index_of_number:]) + 10
             print(num)
 
-pars_data(string1, string2, string3, string4)
 
+pars_data(string1, string2, string3, string4)
