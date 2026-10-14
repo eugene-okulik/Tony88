@@ -4,6 +4,7 @@ string2 = 'результат операции: 54'
 string3 = 'результат работы программы: 209'
 string4 = 'результат: 2'
 
+
 # функция обрабатывающая разные форматы входных данных
 def pars_data(*args):
     for argument in args:
@@ -13,3 +14,4 @@ def pars_data(*args):
             print(num)
 
 pars_data(string1, string2, string3, string4)
+
