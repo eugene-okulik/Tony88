@@ -16,6 +16,7 @@ def seq_fibonacci():
         prev_num = num
         num = next_num
 
+
 for num, count in seq_fibonacci():
     if count in (5, 200, 1000, 100000):
         print(num)
